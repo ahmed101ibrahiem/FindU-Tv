@@ -12,7 +12,7 @@ final sl = GetIt.instance;
 class ServiceLocator{
   void init(){
     /// bloc
-    sl.registerLazySingleton(() => MovieBloc(sl()));
+    sl.registerFactory(() => MovieBloc(sl()));
     /// UseCase
     sl.registerLazySingleton(() => GetNowPlayingMovieUsecase(sl()));
     /// Repository
