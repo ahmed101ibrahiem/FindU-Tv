@@ -1,15 +1,13 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:movie_app/movies/presentation/controller/movie_bloc.dart';
-import 'package:movie_app/movies/presentation/controller/movie_state.dart';
 import 'package:shimmer/shimmer.dart';
+import '../../../../core/utils/enums.dart';
 import '../../../core/utils/app_constant.dart';
-import '../../../core/utils/dummy.dart';
-import '../../../core/utils/enums.dart';
+import '../controller/movie_bloc.dart';
+import '../controller/movie_state.dart';
 
 class PopularWidget extends StatelessWidget {
   const PopularWidget({Key? key}) : super(key: key);
@@ -21,7 +19,7 @@ class PopularWidget extends StatelessWidget {
           previous.popularState != current.popularState,
       builder: (BuildContext context, state) {
         switch(state.popularState){
-          case RequestState.error:
+          case RequestState.loaded:
             return FadeIn(
               duration: const Duration(milliseconds: 500),
               child: SizedBox(
@@ -74,7 +72,7 @@ class PopularWidget extends StatelessWidget {
                 color: Colors.cyan,
               ),
             );
-          case RequestState.loaded:
+          case RequestState.error:
             return SizedBox(height: 170,child: Center(child: Text('${state.nowPlayingMessage}'),),);
         }
 
