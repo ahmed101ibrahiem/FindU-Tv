@@ -1,0 +1,456 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/A0Ei3qp7K3BFMyXgXq77VEYwEqU.jpg",
+      "id": 1010705,
+      "title": "The Great Wolf Pack: A Call to Adventure",
+      "original_language": "en",
+      "original_title": "The Great Wolf Pack: A Call to Adventure",
+      "overview": "Through a magical geyser the Great Wolf Pack where transport to whimsical worlds where they put to use the power of the Pack to overcome various dilemmas that come their way.",
+      "poster_path": "/km6F7QywodDifIpEypB40XcOE86.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        16,
+        10751
+      ],
+      "popularity": 4.507,
+      "release_date": "2022-09-03",
+      "video": false,
+      "vote_average": 5.333,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5rTX60gXezAJP9D15Q4OHPiAp9l.jpg",
+      "id": 28543,
+      "title": "Gotta Catch Santa Claus",
+      "original_language": "en",
+      "original_title": "Gotta Catch Santa Claus",
+      "overview": "Trevor is a true believer in the holiday spirit, so his skeptical best friend, Veronica, challenges him to show the world actual proof that Santa is real! Trevor and his friends embark on the adventure of a lifetime to catch Santa in action and reveal the true magic of Christmas. But they've got to find Santa before LeFreeze - a dim-witted monster who's carrying a serious 100-year-old grudge - and his snowman minions put Christmas on ice forever!",
+      "poster_path": "/aqyV7FLv6ErCvwFB3qNkl0Kq382.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        16,
+        10751
+      ],
+      "popularity": 4.544,
+      "release_date": "2008-12-11",
+      "video": false,
+      "vote_average": 4.375,
+      "vote_count": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 35981,
+      "title": "The Wiggles: Top of the Tots",
+      "original_language": "en",
+      "original_title": "The Wiggles: Top of the Tots",
+      "overview": "It's a Wiggly countdown to fun! The Wiggles have jumped on their bandstand to sing about their new video Top Of The Tots!",
+      "poster_path": "/lM4VOH3EWUt4KecFLnnLgXK7f43.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        10402,
+        10751
+      ],
+      "popularity": 2.703,
+      "release_date": "2004-01-13",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zoL7dO6Uw8wOtkhfrwryevQudSK.jpg",
+      "id": 1015724,
+      "title": "Trick or Treat Scooby-Doo!",
+      "original_language": "en",
+      "original_title": "Trick or Treat Scooby-Doo!",
+      "overview": "Mystery Inc. has cracked the case to top all cases! They’ve tracked down Coco Diablo, the head of a notorious costume crime syndicate. With Coco and her kitty in prison, Mystery Inc. thinks that they can finally enjoy a break. Wrong! Suddenly, menacing doppelgänger ghosts of the Scooby crew and favorite classic foes show up in Coolsville to threaten Halloween. Now it’s up to the meddling kids to unmask the latest scoundrel and save Halloween!",
+      "poster_path": "/wZccw4Hj9ZF1yimnfPsX9rl3HvB.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        12,
+        9648,
+        35,
+        16,
+        10751
+      ],
+      "popularity": 981.493,
+      "release_date": "2022-10-04",
+      "video": false,
+      "vote_average": 7.353,
+      "vote_count": 95
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 1031827,
+      "title": "The Wonderful Autumn of Mickey Mouse",
+      "original_language": "en",
+      "original_title": "The Wonderful Autumn of Mickey Mouse",
+      "overview": "In a leafy hamlet, Mickey Mouse is determined to undo the failures of his family’s past after inheriting a rundown pumpkin farm from a distant relative, and the epic legend of its futility.",
+      "poster_path": "/6JzWbHzqRDsKdoZ5ylIJ8xCPZ0g.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        16
+      ],
+      "popularity": 5.436,
+      "release_date": "2022-11-18",
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9p3bwHTpX5Axpyp4gxqmDxWaau0.jpg",
+      "id": 410113,
+      "title": "The Loud House Movie",
+      "original_language": "en",
+      "original_title": "The Loud House Movie",
+      "overview": "The Loud family travel to Scotland and discover they are descendants of Scottish royalty as they move into their giant ancestral castle.",
+      "poster_path": "/mab5wPeGVjbMyYMzyzfdKKnG9cl.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        12,
+        14
+      ],
+      "popularity": 86.604,
+      "release_date": "2021-08-20",
+      "video": false,
+      "vote_average": 7.522,
+      "vote_count": 138
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/u3tYPd0s6uvLvgEqWVUQSM8pe47.jpg",
+      "id": 772973,
+      "title": "The Inhabitant",
+      "original_language": "en",
+      "original_title": "The Inhabitant",
+      "overview": "Like any other teenage girl, Tara is just surviving high school — yet her father and mother seem strangely distant. Amidst a nearby spree of gruesome ax murders, Tara has sightings of terrifying entities, forcing her to question her own sanity and shocking ancestry.",
+      "poster_path": "/kmC9FrsqwSwsiR9TyEaTFFgxmxK.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        53,
+        27
+      ],
+      "popularity": 18.249,
+      "release_date": "2022-10-07",
+      "video": false,
+      "vote_average": 6.771,
+      "vote_count": 35
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8Db2ogq0e4UepMMxwqdv79YJMNq.jpg",
+      "id": 15997,
+      "title": "The Land Before Time: The Great Valley Adventure",
+      "original_language": "en",
+      "original_title": "The Land Before Time: The Great Valley Adventure",
+      "overview": "After his tribe of herbivorous dinosaurs moves to the carnivore-free Peaceful Valley, young Littlefoot and his friends chase after a pair of dangerous dinosaurs stealing an egg from the village. While running, they accidentally cause a landslide that opens up their home to outsiders. When the egg they bring back and hatch reveals not one of their own, but a carnivorous tyrannosaurus, the youngsters decide to secretly raise it.",
+      "poster_path": "/1lIkU6gbqMx4oRDGegawLdQdLJD.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        16,
+        12,
+        10751
+      ],
+      "popularity": 23.396,
+      "release_date": "1994-12-12",
+      "video": false,
+      "vote_average": 6.277,
+      "vote_count": 481
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/92PJmMopfy64VYjd0HvIQaHGZX0.jpg",
+      "id": 366672,
+      "title": "Paws of Fury: The Legend of Hank",
+      "original_language": "en",
+      "original_title": "Paws of Fury: The Legend of Hank",
+      "overview": "A hard-on-his-luck hound finds himself in a town full of cats in need of a hero to defend them from a ruthless villain's wicked plot to wipe their village off the map. With help from a reluctant mentor, our underdog must assume the role of town samurai and team up with the villagers to save the day.",
+      "poster_path": "/wMDUDwAArpfGdtTTZ25SfwngGwt.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        10751,
+        35,
+        16,
+        28
+      ],
+      "popularity": 1191.549,
+      "release_date": "2022-07-14",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 162
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iS9U3VHpPEjTWnwmW56CrBlpgLj.jpg",
+      "id": 642885,
+      "title": "Hocus Pocus 2",
+      "original_language": "en",
+      "original_title": "Hocus Pocus 2",
+      "overview": "It's been 29 years since someone lit the Black Flame Candle and resurrected the 17th-century sisters, and they are looking for revenge. Now it's up to three high-school students to stop the ravenous witches from wreaking a new kind of havoc on Salem before dawn on All Hallow's Eve.",
+      "poster_path": "/7ze7YNmUaX81ufctGqt0AgHxRtL.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        14,
+        35,
+        10751
+      ],
+      "popularity": 2572.294,
+      "release_date": "2022-09-27",
+      "video": false,
+      "vote_average": 7.641,
+      "vote_count": 850
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4m99oWQglMXNSLTrtXU6f9j9fGT.jpg",
+      "id": 32916,
+      "title": "Scooby-Doo! Abracadabra-Doo",
+      "original_language": "en",
+      "original_title": "Scooby-Doo! Abracadabra-Doo",
+      "overview": "The gang goes on a trip to check on Velma's younger sister, Madelyn. She's been studying stage magic at the Whirlen Merlin Magic Academy, where apparently there have been sightings of a giant griffin. The gang decides to investigate.",
+      "poster_path": "/1cKL7mZW5shP9r9TlTNQX4doMQN.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        16,
+        35,
+        10751,
+        9648,
+        14
+      ],
+      "popularity": 17.525,
+      "release_date": "2010-02-16",
+      "video": false,
+      "vote_average": 7.754,
+      "vote_count": 199
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nG99FELxtoucPiawWJ3vDWZCSng.jpg",
+      "id": 16161,
+      "title": "Baby Boy",
+      "original_language": "en",
+      "original_title": "Baby Boy",
+      "overview": "The story of Jody, a misguided, 20-year-old African-American who is really just a baby boy finally forced-kicking and screaming to face the commitments of real life. Streetwise and jobless, he has not only fathered two children by two different women-Yvette and Peanut but still lives with his own mother. He can't seem to strike a balance or find direction in his chaotic life.",
+      "poster_path": "/d9b5sDAY2q2u2fWFYZPmt0Cl2p7.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        80,
+        18,
+        10749,
+        53
+      ],
+      "popularity": 16.749,
+      "release_date": "2001-06-27",
+      "video": false,
+      "vote_average": 7.136,
+      "vote_count": 246
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "id": 84773,
+      "title": "Detective Kitty O'Day",
+      "original_language": "en",
+      "original_title": "Detective Kitty O'Day",
+      "overview": "Convinced that she has what it takes to be a detective, inquisitive secretary Kitty O'Day gets her chance to put her sleuthing skills to the test when her investment broker boss is mysteriously murdered. But Kitty's investigation hits a snag when Inspector Miles Clancy begins to suspect that she's the culprit.",
+      "poster_path": "/mQmsmWOSIe5J5iwEQr7EQmiba3X.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        35,
+        9648,
+        10749
+      ],
+      "popularity": 1.982,
+      "release_date": "1944-05-13",
+      "video": false,
+      "vote_average": 4.5,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/piEEg5kDQyxK05V4Am8sVxFe267.jpg",
+      "id": 676701,
+      "title": "Tad the Lost Explorer and the Curse of the Mummy",
+      "original_language": "es",
+      "original_title": "Tadeo Jones 3: La Tabla Esmeralda",
+      "overview": "Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering the lives of his friends: Mummy, Jeff and Belzoni. With everyone against him and only helped by Sara, he sets off on an adventure that will take him from Mexico to Chicago and from Paris to Egypt, in order to put an end to the curse of the Mummy.",
+      "poster_path": "/yt0CGOtKbFGR4bqLnDyB0rJeUrZ.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751,
+        14
+      ],
+      "popularity": 267.659,
+      "release_date": "2022-08-24",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hwUxHPkuUleJeoick4uZsrKDXxF.jpg",
+      "id": 718789,
+      "title": "Lightyear",
+      "original_language": "en",
+      "original_title": "Lightyear",
+      "overview": "Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox.",
+      "poster_path": "/65WFr1ZMAbEniIh4jEhbRG9OHHN.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        10751,
+        878
+      ],
+      "popularity": 823.192,
+      "release_date": "2022-06-15",
+      "video": false,
+      "vote_average": 7.209,
+      "vote_count": 2254
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ghsPsvM0sEztdNT4kUlTsBF2LEF.jpg",
+      "id": 852046,
+      "title": "Athena",
+      "original_language": "fr",
+      "original_title": "Athena",
+      "overview": "Hours after the tragic death of their youngest brother in unexplained circumstances, three siblings have their lives thrown into chaos.",
+      "poster_path": "/fenNPxVF5ERy0CSyVruuEg959Hg.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        18,
+        28,
+        53
+      ],
+      "popularity": 2375.287,
+      "release_date": "2022-09-09",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 299
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rgZ3hdzgMgYgzvBfwNEVW01bpK1.jpg",
+      "id": 429473,
+      "title": "Lou",
+      "original_language": "en",
+      "original_title": "Lou",
+      "overview": "A young girl is kidnapped during a powerful storm. Her mother joins forces with her mysterious neighbour to set off in pursuit of the kidnapper. Their journey will test their limits and expose the dark secrets of their past.",
+      "poster_path": "/djM2s4wSaATn4jVB33cV05PEbV7.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        28,
+        53,
+        18
+      ],
+      "popularity": 1560.766,
+      "release_date": "2022-09-23",
+      "video": false,
+      "vote_average": 6.564,
+      "vote_count": 303
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jauI01vUIkPA0xVsamGj0Gs1nNL.jpg",
+      "id": 507086,
+      "title": "Jurassic World Dominion",
+      "original_language": "en",
+      "original_title": "Jurassic World Dominion",
+      "overview": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.",
+      "poster_path": "/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        12,
+        28,
+        878
+      ],
+      "popularity": 1342.164,
+      "release_date": "2022-06-01",
+      "video": false,
+      "vote_average": 7.013,
+      "vote_count": 3694
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/uT5G4fA7jKxlJNfwYPMm353f5AI.jpg",
+      "id": 140300,
+      "title": "Kung Fu Panda 3",
+      "original_language": "en",
+      "original_title": "Kung Fu Panda 3",
+      "overview": "Continuing his \"legendary adventures of awesomeness\", Po must face two hugely epic, but different threats: one supernatural and the other a little closer to his home.",
+      "poster_path": "/pKrwkydrXKDX9rpMdzwqFQQLRfI.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        28,
+        12,
+        16,
+        35,
+        10751
+      ],
+      "popularity": 94.687,
+      "release_date": "2016-01-23",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 4882
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5GA3vV1aWWHTSDO5eno8V5zDo8r.jpg",
+      "id": 760161,
+      "title": "Orphan: First Kill",
+      "original_language": "en",
+      "original_title": "Orphan: First Kill",
+      "overview": "After escaping from an Estonian psychiatric facility, Leena Klammer travels to America by impersonating Esther, the missing daughter of a wealthy family. But when her mask starts to slip, she is put against a mother who will protect her family from the murderous “child” at any cost.",
+      "poster_path": "/pHkKbIRoCe7zIFvqan9LFSaQAde.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "popularity": 3226.858,
+      "release_date": "2022-07-27",
+      "video": false,
+      "vote_average": 6.777,
+      "vote_count": 1092
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zt6sKnx9dEiRCb7oVMlfmmMGJMO.jpg",
+      "id": 718930,
+      "title": "Bullet Train",
+      "original_language": "en",
+      "original_title": "Bullet Train",
+      "overview": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
+      "poster_path": "/tVxDe01Zy3kZqaZRNiXFGDICdZk.jpg",
+      "media_type": "movie",
+      "genre_ids": [
+        28,
+        35,
+        53
+      ],
+      "popularity": 2654.547,
+      "release_date": "2022-07-03",
+      "video": false,
+      "vote_average": 7.522,
+      "vote_count": 1944
+    }
+  ],
+  "total_pages": 2,
+  "total_results": 21
+}
+
