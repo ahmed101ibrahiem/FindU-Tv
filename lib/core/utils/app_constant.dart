@@ -4,6 +4,8 @@ import 'package:movie_app/features/movie_details/domain/usecase/get_movie_detail
 
 class AppString {
   static const String baseUrl = 'https://api.themoviedb.org/3';
+  static const String noScreens = 'There are no screens available';
+
   static const String apiKey = '75619ab8547be1d3d33db02861537af6';
   static const String nowPlayingMoviePath = '$baseUrl/movie/now_playing?api_key=$apiKey';
   static const String popularMoviePath = '$baseUrl/movie/popular?api_key=$apiKey';

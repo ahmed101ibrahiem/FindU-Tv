@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:movie_app/core/utils/enums.dart';
+import 'package:movie_app/features/movie_details/presentation/screens/movie_detail_screen.dart';
 import 'package:movie_app/movies/presentation/controller/movie_bloc.dart';
 import 'package:movie_app/movies/presentation/controller/movie_state.dart';
 import 'package:shimmer/shimmer.dart';
@@ -36,6 +37,7 @@ class TopRatedWidget extends StatelessWidget {
                       child: InkWell(
                         onTap: () {
                           /// TODO : NAVIGATE TO  MOVIE DETAILS
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>MovieDetailScreen(id: movie.id)));
                         },
                         child: ClipRRect(
                           borderRadius:

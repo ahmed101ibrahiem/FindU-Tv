@@ -112,6 +112,7 @@ class NowPlayingWidget extends StatelessWidget {
           case RequestState.loading:
             return  Center(
               child: SpinKitCircle(
+
                 color: Colors.cyan,
               ),
             );;

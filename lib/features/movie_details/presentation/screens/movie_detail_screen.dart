@@ -23,7 +23,7 @@ class MovieDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
   create: (context) => sl<MovieDetailsBloc>()..add(GetMovieDetailsEvent(id))..add(GetMovieRecommendEvent(id)),
-  child: Scaffold(
+  child: const Scaffold(
       body: MovieDetailContent(
        
       ),
@@ -130,8 +130,8 @@ class MovieDetailContent extends StatelessWidget {
                                   ),
                                   const SizedBox(width: 4.0),
                                   Text(
-                                    (state.movieDetails!.voteAverage / 2)
-                                        .toStringAsFixed(1),
+                                    (state.movieDetails!.voteAverage )
+                                        .toStringAsFixed(2),
                                     style: const TextStyle(
                                       fontSize: 16.0,
                                       fontWeight: FontWeight.w500,

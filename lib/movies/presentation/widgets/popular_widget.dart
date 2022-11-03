@@ -6,6 +6,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:shimmer/shimmer.dart';
 import '../../../../core/utils/enums.dart';
 import '../../../core/utils/app_constant.dart';
+import '../../../features/movie_details/presentation/screens/movie_detail_screen.dart';
 import '../controller/movie_bloc.dart';
 import '../controller/movie_state.dart';
 
@@ -36,6 +37,8 @@ class PopularWidget extends StatelessWidget {
                       child: InkWell(
                         onTap: () {
                           /// TODO : NAVIGATE TO  MOVIE DETAILS
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>MovieDetailScreen(id: movie.id)));
+
                         },
                         child: ClipRRect(
                           borderRadius:

@@ -7,6 +7,7 @@ import 'package:movie_app/movies/presentation/widgets/now_playing_widget.dart';
 import 'package:movie_app/movies/presentation/widgets/popular_widget.dart';
 import 'package:movie_app/movies/presentation/widgets/top_rated_widget.dart';
 
+import '../../../core/route/route_screen.dart';
 import '../../../core/servicrs/service_locater.dart';
 
 class MainMoviesScreen extends StatelessWidget {
@@ -14,9 +15,7 @@ class MainMoviesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (BuildContext context)  =>sl<MovieBloc>()..add(GetNowPlayingMovieEvent())..add(GetPopularMovieEvent())..add(GetTopRatedMovieEvent()),
-      child: Scaffold(
+    return  Scaffold(
         backgroundColor: Colors.grey.shade900,
         body: SingleChildScrollView(
           key: const Key('movieScrollView'),
@@ -25,7 +24,7 @@ class MainMoviesScreen extends StatelessWidget {
             children: [
               const NowPlayingWidget(),
               Container(
-                margin: const EdgeInsets.fromLTRB(16.0, 24.0, 16.0, 8.0),
+                margin: const EdgeInsets.fromLTRB(16.0, 20.0, 16.0, 8.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -41,6 +40,7 @@ class MainMoviesScreen extends StatelessWidget {
                     InkWell(
                       onTap: () {
                         /// TODO : NAVIGATION TO POPULAR SCREEN
+                        Navigator.pushNamed(context, Routes.popularSeeMore);
                       },
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -81,6 +81,8 @@ class MainMoviesScreen extends StatelessWidget {
                     InkWell(
                       onTap: () {
                         /// TODO : NAVIGATION TO Top Rated Movies Screen
+                        Navigator.pushNamed(context, Routes.topRateSeeMore);
+
                       },
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -103,7 +105,7 @@ class MainMoviesScreen extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
+      )
+    ;
   }
 }
