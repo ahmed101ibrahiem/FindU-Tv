@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:movie_app/core/utils/media_quary.dart';
 import 'package:shimmer/shimmer.dart';
 import '../../../../core/utils/enums.dart';
 import '../../../core/utils/app_constant.dart';
@@ -24,7 +25,7 @@ class PopularWidget extends StatelessWidget {
             return FadeIn(
               duration: const Duration(milliseconds: 500),
               child: SizedBox(
-                height: 170.0,
+                height: context.height *0.21,
                 child: ListView.builder(
                   shrinkWrap: true,
                   scrollDirection: Axis.horizontal,
@@ -51,7 +52,7 @@ class PopularWidget extends StatelessWidget {
                               baseColor: Colors.grey[850]!,
                               highlightColor: Colors.grey[800]!,
                               child: Container(
-                                height: 170.0,
+                                height: context.height *0.21,
                                 width: 120.0,
                                 decoration: BoxDecoration(
                                   color: Colors.black,
@@ -70,13 +71,16 @@ class PopularWidget extends StatelessWidget {
               ),
             );
           case RequestState.loading:
-            return  Center(
-              child: SpinKitCircle(
-                color: Colors.cyan,
+            return  SizedBox(
+              height: context.height *0.21,
+              child: Center(
+                child: SpinKitCircle(
+                  color: Colors.cyan,
+                ),
               ),
             );
           case RequestState.error:
-            return SizedBox(height: 170,child: Center(child: Text('${state.nowPlayingMessage}'),),);
+            return SizedBox(height: context.height *0.21,child: Center(child: Text('${state.nowPlayingMessage}'),),);
         }
 
       },

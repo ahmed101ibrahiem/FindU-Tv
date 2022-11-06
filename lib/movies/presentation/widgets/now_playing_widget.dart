@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:movie_app/core/utils/enums.dart';
+import 'package:movie_app/core/utils/media_quary.dart';
 import 'package:movie_app/features/movie_details/presentation/screens/movie_detail_screen.dart';
 import 'package:movie_app/movies/presentation/controller/movie_bloc.dart';
 import 'package:movie_app/movies/presentation/controller/movie_state.dart';
@@ -26,7 +27,7 @@ class NowPlayingWidget extends StatelessWidget {
               duration: const Duration(milliseconds: 500),
               child: CarouselSlider(
                 options: CarouselOptions(
-                  height: 400.0,
+                  height: context.height *0.45,
                   viewportFraction: 1.0,
                   onPageChanged: (index, reason) {},
                 ),
@@ -59,7 +60,7 @@ class NowPlayingWidget extends StatelessWidget {
                             },
                             blendMode: BlendMode.dstIn,
                             child: CachedNetworkImage(
-                              height: 560.0,
+                              height: context.height *0.45,
                               imageUrl: AppString.imageUrl(item.backdropPath),
                               fit: BoxFit.cover,
                             ),
@@ -110,14 +111,17 @@ class NowPlayingWidget extends StatelessWidget {
               ),
             );
           case RequestState.loading:
-            return  Center(
-              child: SpinKitCircle(
+            return  SizedBox(
+              height: context.height *0.45,
+              child: Center(
+                child: SpinKitCircle(
 
-                color: Colors.cyan,
+                  color: Colors.cyan,
+                ),
               ),
-            );;
+            );
           case RequestState.error:
-            return SizedBox(height: 170,child: Center(child: Text('${state.nowPlayingMessage}'),),);
+            return SizedBox(height: context.height *0.45,child: Center(child: Text('${state.nowPlayingMessage}'),),);
         }
 
       },
