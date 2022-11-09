@@ -33,8 +33,6 @@ class MovieDetailScreen extends StatelessWidget {
 }
 
 class MovieDetailContent extends StatelessWidget {
-  
-
   const MovieDetailContent({
     Key? key,
     

@@ -102,6 +102,11 @@ class MainMoviesScreen extends StatelessWidget {
               ),
               const TopRatedWidget(),
               const SizedBox(height: 50.0),
+              ElevatedButton(onPressed: (){
+                Navigator.pushNamed(context, Routes.tvScreen);
+              },
+                  child: const Text('Tv Screen')),
+              const SizedBox(height: 50.0),
             ],
           ),
         ),
