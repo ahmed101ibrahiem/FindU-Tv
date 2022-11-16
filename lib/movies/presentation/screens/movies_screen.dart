@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:movie_app/core/utils/media_quary.dart';
 import 'package:movie_app/movies/presentation/controller/movie_bloc.dart';
 import 'package:movie_app/movies/presentation/controller/movie_event.dart';
 import 'package:movie_app/movies/presentation/widgets/now_playing_widget.dart';
 import 'package:movie_app/movies/presentation/widgets/popular_widget.dart';
 import 'package:movie_app/movies/presentation/widgets/top_rated_widget.dart';
-
 import '../../../core/route/route_screen.dart';
-import '../../../core/servicrs/service_locater.dart';
 
-class MainMoviesScreen extends StatelessWidget {
-  const MainMoviesScreen({Key? key}) : super(key: key);
+class MainMoviesScreen extends StatefulWidget {
+   MainMoviesScreen({Key? key}) : super(key: key);
+
+  @override
+  State<MainMoviesScreen> createState() => _MainMoviesScreenState();
+}
+
+class _MainMoviesScreenState extends State<MainMoviesScreen> {
 
   @override
   Widget build(BuildContext context) {
@@ -101,15 +106,11 @@ class MainMoviesScreen extends StatelessWidget {
                 ),
               ),
               const TopRatedWidget(),
-              const SizedBox(height: 50.0),
-              ElevatedButton(onPressed: (){
-                Navigator.pushNamed(context, Routes.tvScreen);
-              },
-                  child: const Text('Tv Screen')),
-              const SizedBox(height: 50.0),
+SizedBox(height: context.height *0.03,)
             ],
           ),
         ),
+
       )
     ;
   }

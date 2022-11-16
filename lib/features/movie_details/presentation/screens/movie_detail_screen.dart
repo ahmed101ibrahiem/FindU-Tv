@@ -5,13 +5,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:movie_app/core/utils/app_constant.dart';
 import 'package:movie_app/core/utils/enums.dart';
-import 'package:movie_app/features/movie_details/domain/entities/movie_details.dart';
 import 'package:shimmer/shimmer.dart';
-
 import '../../../../core/servicrs/service_locater.dart';
-import '../../../../core/utils/dummy.dart';
 import '../../domain/entities/movie_detail_genres.dart';
-import '../../domain/entities/recommendation.dart';
 import '../controller/movie_details_bloc.dart';
 
 class MovieDetailScreen extends StatelessWidget {
