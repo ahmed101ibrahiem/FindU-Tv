@@ -7,7 +7,7 @@ import 'package:movie_app/core/error/failuar.dart';
 import '../../movies/domain/entities/movie.dart';
 
 abstract class UseCase<Type,Params>{
-  Future<Either<Failure,Type>> call(Params params);
+  Future<Either<Failure,Type?>> call(Params params);
 
 }
 class NoParams extends Equatable{

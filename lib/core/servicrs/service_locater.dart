@@ -27,6 +27,8 @@ import 'package:movie_app/movies/domain/usecases/get_now_play_usecase.dart';
 import 'package:movie_app/movies/domain/usecases/get_popular_movie_usecase.dart';
 import 'package:movie_app/movies/domain/usecases/get_top_rated_usecase.dart';
 import 'package:movie_app/movies/presentation/controller/movie_bloc.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 
 import '../../features/movie_details/domain/repository/recommed_repossitory.dart';
 import '../../features/movie_details/domain/usecase/get_recommen_movie_usecase.dart';
@@ -35,7 +37,7 @@ import '../../features/tv_details/domain/usecase/get_recommend_tv_usecase.dart';
 final sl = GetIt.instance;
 
 class ServiceLocator{
-  void init(){
+  void init()async{
     /// bloc
     sl.registerFactory(() => MovieBloc(sl(),sl(),sl()));
     sl.registerFactory(() => MovieDetailsBloc(getMovieDetailsUC: sl(),getRecommendMovieUsecase: sl()));
@@ -59,7 +61,6 @@ class ServiceLocator{
     sl.registerLazySingleton<MovieDetailRepo>(() => MovieDetailsRepoImplement(movieDetailsRemoteDS: sl()));
     sl.registerLazySingleton<BaseTvRepositories>(() => TvRepositories(baseTvRemoteDS: sl()));
     sl.registerLazySingleton<BaseTvDetailsRepository>(() => TvDetailsRepository(baseTvDetailsRemoteDS: sl()));
-
     /// DATA SOURCE
     sl.registerLazySingleton<RecommendMovieRemoteDS>(() => RecommendMovieRemoteDSimpl());
     sl.registerLazySingleton<BaseMovieRemoteDataSource>(() => MovieRemoteDataSource());
@@ -67,6 +68,10 @@ class ServiceLocator{
     sl.registerLazySingleton<BaseTvRemoteDS>(() => TvRemoteDataSource());
     sl.registerLazySingleton<BaseTvDetailsRemoteDS>(() => TvDetailsRemoteDs());
 
+    /// external
+    final sharedPreferences = await SharedPreferences.getInstance();
+    sl.registerLazySingleton(() => sharedPreferences);
   }
+
 
 }

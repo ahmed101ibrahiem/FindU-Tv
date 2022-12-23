@@ -3,6 +3,11 @@
 import 'package:movie_app/features/movie_details/domain/usecase/get_movie_detaild_usecase.dart';
 
 class AppString {
+  static const String englishCode = 'en';
+  static const String arabicCode = 'ar';
+  static const String local = 'local';
+  static const String cacheFailure = 'Cache Failure';
+
   static const String baseUrl = 'https://api.themoviedb.org/3';
   static const String noScreens = 'There are no screens available';
 
